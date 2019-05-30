@@ -4,7 +4,7 @@ class Cat
   attr_reader :name
 
   def initialize(name)
-    @name = name.freeze
+    @name = name
     @mood = "nervous"
   end
 
